@@ -38,7 +38,7 @@ const FAVOURITES = 'favourites';
        // document.getElementById("demo").innerHTML =  JSON.stringify(newages[0]);
         localStorage.setItem(
             FAVOURITES,
-            JSON.stringify(newages)
+            JSON.stringify(newages[0])
           );
       }
    
